@@ -1,0 +1,32 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+h1{
+	
+	font-weight: 700;
+}
+
+h2{
+	
+	font-weight: 700;
+}
+
+p{	
+	font-weight: 400;
+    margin-left: 30%;
+}
+
+#output{
+	background-color: #ee3e80;
+	padding: 20px;
+}
+
+a:link {
+	color:white;
+	text-decoration: none;
+}
+
+a:hover{
+	color:black;
+};

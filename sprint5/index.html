@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<title>Kana's Sprint 5 Page</title>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+<article>
+	<h1>Kana's Sprint 5 page</h1>
+	<h2>All addressbook data are here to show for testing purpose</h2>
+	<ul>
+		<li>abishak</li>
+		<li>susan</li>
+		<li>james</li>
+		<li>jason</li>
+		<li>jeff</li>
+		<li>jenna</li>
+		<li>zack</li>
+		<li>samuel</li>
+		<li>sam</li>			
+	</ul>
+</article>
+<h1>search form -- Kana's Sprint 5 -- Using Mustache Templates</h1>
+
+
+<form action="" method="get" id="search-form">
+    
+    <div>
+        <label for="q">Please type your search in the box</label>
+        <input type="search" id="q" name="q" required placeholder="type a name" autocomplete="off">
+    </div>
+</form>
+
+<div id="output" aria-atomic="true" aria-live="polite"></div>
+
+<script type="x-template" id="mustache-template">
+
+        <p><a href="mailto:{{email}}">{{name}}</a></p>
+
+
+</script>
+
+<script src="js/mustache.js"></script>
+
+<script src="js/instantSearch.js"></script>
+
+</body>
+</html>
